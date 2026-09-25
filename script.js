@@ -2,6 +2,10 @@
 btn.addEventListener("click", () => {
     let age = document.querySelector("#age").value;
     let name = document.querySelector("#name").value;
+	 if (age === "" || name === "") {
+        alert("Please enter valid details.");
+        return;
+    
 
     let promise = new Promise((resolve, reject) => {
 
