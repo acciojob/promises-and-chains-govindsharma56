@@ -1,4 +1,5 @@
 //your JS code here. If required.
+let btn=document.querySelector('#btn');
 btn.addEventListener("click", () => {
     let age = document.querySelector("#age").value;
     let name = document.querySelector("#name").value;
